@@ -17,32 +17,32 @@ const HomeContainer = () => {
         <div className='flex items-center gap-2 justify-center bg-orange-300 px-4 py-1  rounded-full'>
           <p className='text-base text-gray-500 font-semibold'> Bike Delivery</p>
           <div className='w-6 h-6 bg-white rounded-full overflow-hidden drop-shadow-xl'>
-          <img src={Delivery} 
-          className='w-full h-full object-contain' 
-          alt="delivery"/>
+            <img src={Delivery}
+              className='w-full h-full object-contain'
+              alt="delivery" />
 
-          <div className='w-full h-full absolute flex items-center justify-center'></div>
+            <div className='w-full h-full absolute flex items-center justify-center'></div>
           </div>
         </div>
 
 
         <p className='text-[2.5rem] lg:text-[4.5rem] font-bold tracking-wide text-white'>  The Fastest Delivery in
-        <span className='text-orange-600 text-[3rem] lg:text-[5rem]'> UK </span>
+          <span className='text-orange-600 text-[3rem] lg:text-[5rem]'> UK </span>
         </p>
 
-        <p className='text-base text-textColor text-center md:text-left md:w-[80%]'> In our fast-paced world, convenience and efficiency are key 
-          when it comes to delivering goods and services to your doorstep. 
-          That's where <span className='text-orange-500'>Abike </span> comes in. We are proud to present our innovative delivery website, 
+        <p className='text-base text-textColor text-center md:text-left md:w-[80%]'> In our fast-paced world, convenience and efficiency are key
+          when it comes to delivering goods and services to your doorstep.
+          That's where <span className='text-orange-500'>Abike </span> comes in. We are proud to present our innovative delivery website,
           designed to make your life easier and save you valuable time.
-          </p>
+        </p>
 
-          <button 
+        <button
           type='button'
           className='bg-gradient-to-br from-orange-400 to-orange-500 w-full md:w-auto px-4 py-2 
           rounded-lg hover:shadow-lg transition-all ease-in-out duration-100'
-          >
-            Order Now
-          </button>
+        >
+          Order Now
+        </button>
       </div>
       <div className='py-2 flex-1 flex items-center relative'>
         <img src={Hero} className='ml-auto h-420 w-full lg:w-auto lg:h-650' alt="her-bg" />
